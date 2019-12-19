@@ -17,7 +17,7 @@ pipeline {
             parallel {
                 stage('Test On Windows') {
                    agent {
-                        label "mock"
+                        label "win"
                     }
                     steps {
 			sleep 10
